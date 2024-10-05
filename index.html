@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wordle game</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <div class="menu-left">
+          <div class="nav-icons"><img src="assets/menu.svg" alt="menu" /></div>
+        </div>
+        <div class="menu-right">
+          <div class="nav-icons">
+            <img src="assets/light.svg" alt="light" />
+          </div>
+          <div class="nav-icons">
+            <img src="assets/chart.svg" alt="chart" />
+          </div>
+          <div class="nav-icons">
+            <img src="assets/question.svg" alt="question" />
+          </div>
+          <div class="nav-icons">
+            <img src="assets/tooth.svg" alt="tooth" />
+          </div>
+        </div>
+      </nav>
+      <h1>wordle</h1>
+      <h3>time : <span class="time">00:00</span></h3>
+    </header>
+    <!-- main -->
+    <main>
+      <div class="board-row row-0">
+        <div class="board-block" data-index="00"></div>
+        <div class="board-block" data-index="01"></div>
+        <div class="board-block" data-index="02"></div>
+        <div class="board-block" data-index="03"></div>
+        <div class="board-block" data-index="04"></div>
+      </div>
+      <div class="board-row row-1">
+        <div class="board-block" data-index="10"></div>
+        <div class="board-block" data-index="11"></div>
+        <div class="board-block" data-index="12"></div>
+        <div class="board-block" data-index="13"></div>
+        <div class="board-block" data-index="14"></div>
+      </div>
+      <div class="board-row row-2">
+        <div class="board-block" data-index="20"></div>
+        <div class="board-block" data-index="21"></div>
+        <div class="board-block" data-index="22"></div>
+        <div class="board-block" data-index="23"></div>
+        <div class="board-block" data-index="24"></div>
+      </div>
+      <div class="board-row row-3">
+        <div class="board-block" data-index="30"></div>
+        <div class="board-block" data-index="31"></div>
+        <div class="board-block" data-index="32"></div>
+        <div class="board-block" data-index="33"></div>
+        <div class="board-block" data-index="34"></div>
+      </div>
+      <div class="board-row row-4">
+        <div class="board-block" data-index="40"></div>
+        <div class="board-block" data-index="41"></div>
+        <div class="board-block" data-index="42"></div>
+        <div class="board-block" data-index="43"></div>
+        <div class="board-block" data-index="44"></div>
+      </div>
+      <div class="board-row row-5">
+        <div class="board-block" data-index="50"></div>
+        <div class="board-block" data-index="51"></div>
+        <div class="board-block" data-index="52"></div>
+        <div class="board-block" data-index="53"></div>
+        <div class="board-block" data-index="54"></div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="keybord">
+        <div class="keybord-row">
+          <button class="key" data-key="Q">Q</button>
+          <button class="key" data-key="W">W</button>
+          <button class="key" data-key="E">E</button>
+          <button class="key" data-key="R">R</button>
+          <button class="key" data-key="T">T</button>
+          <button class="key" data-key="Y">Y</button>
+          <button class="key" data-key="U">U</button>
+          <button class="key" data-key="I">I</button>
+          <button class="key" data-key="O">O</button>
+          <button class="key" data-key="P">P</button>
+        </div>
+        <div class="keybord-row">
+          <button class="key" data-key="A">A</button>
+          <button class="key" data-key="S">S</button>
+          <button class="key" data-key="D">D</button>
+          <button class="key" data-key="F">F</button>
+          <button class="key" data-key="G">G</button>
+          <button class="key" data-key="H">H</button>
+          <button class="key" data-key="J">J</button>
+          <button class="key" data-key="K">K</button>
+          <button class="key" data-key="L">L</button>
+        </div>
+        <div class="keybord-row">
+          <button class="key key-wide" data-key="ENTER">ENTER</button>
+          <button class="key" data-key="Z">Z</button>
+          <button class="key" data-key="X">X</button>
+          <button class="key" data-key="C">C</button>
+          <button class="key" data-key="V">V</button>
+          <button class="key" data-key="B">B</button>
+          <button class="key" data-key="N">N</button>
+          <button class="key" data-key="M">M</button>
+          <button class="key key-wide" data-key="backspace">
+            <img src="assets/backspace.svg" alt="backspace" />
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

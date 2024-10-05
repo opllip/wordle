@@ -1,0 +1,47 @@
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keybord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 80%;
+  max-width: 500px;
+}
+.keybord-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 8px;
+  gap: 5px;
+}
+.key {
+  height: 60px;
+  width: 35px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+  font-weight: bold;
+  background-color: var(--default);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key:hover {
+  background-color: #bdbfc3;
+}
+.key-wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 65px;
+}
