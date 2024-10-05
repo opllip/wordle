@@ -11,8 +11,7 @@ main {
   align-items: center;
   gap: 5px;
 }
-.row-0 {
-}
+
 .board-block {
   display: flex;
   justify-content: center;
@@ -20,4 +19,6 @@ main {
   border: 3px solid #d3d6da;
   width: 60px;
   height: 60px;
+  font-size: 20px;
+  font-weight: bold;
 }
