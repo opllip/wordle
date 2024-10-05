@@ -16,3 +16,46 @@ body {
     sans-serif;
   min-width: 500px;
 }
+@keyframes correct-float {
+  0% {
+    transform: translateY(0) scale(1);
+    background-color: var(--correct);
+  }
+  30% {
+    transform: translateY(-5px) scale(0.8);
+    background-color: var(--wrong);
+  }
+  60% {
+    transform: translateY(-5px) scale(0.8);
+    background-color: var(--wrong);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    background-color: var(--correct);
+  }
+}
+@keyframes any-float {
+  0% {
+    transform: translateY(0);
+    background-color: var(--any);
+  }
+  30% {
+    transform: translateY(-5px);
+    background-color: var(--default);
+  }
+  60% {
+    transform: translateY(-5px);
+    background-color: var(--default);
+  }
+  100% {
+    transform: translateY(0);
+    background-color: var(--any);
+  }
+}
+
+.result-correct {
+  animation: 1s correct-float infinite;
+}
+.result-any {
+  animation: 1s any-float;
+}

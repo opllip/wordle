@@ -37,6 +37,7 @@ function appStart() {
     } else {
       div.innerText = "실패! \n\n 게임이 종료됐습니다.";
     }
+    div.classList.add(`result-${result}`);
 
     div.style = `background-color:var(--${result}); color:#fff; font-weight:bold; font-size: 30px; width:100%; height:300px; position:absolute; top:calc(50% - 150px); display:flex; justify-content:center; align-items: center;`;
     document.body.appendChild(div);
